@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to right, red, orange, yellow, greenyellow, green, skyblue, blue, purple);
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.TitleTopBox,
+.OptionBox {
+    width: 1050px;
+    background-color: rgba(249, 249, 250, 0.386);
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(249, 249, 250, 0.201);
+}
+
+.OptionBox {
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}
+
+.OptionBox:active {
+    background-color: aliceblue;
+    margin-top: 3px;
+}
+
+.OptionBox:hover {
+    color: blue;
+}

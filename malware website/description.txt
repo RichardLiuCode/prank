@@ -1,0 +1,2 @@
+This website purpose is just for prank only. The website will simulate downloading virus. But this website do not contain any malware, it won't actually damage your pc. 
+This website will try to call the geolocation and clipboard api to have further simulate, but the website will not be actually using them

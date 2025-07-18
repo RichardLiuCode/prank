@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="logo.png">
+</head>
+
+<body>
+    <img src="background-image.png" style="width:100vw;height:100vh;position:fixed;top:0;left:0">
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault()
+        });
+        document.addEventListener("click", function () {
+            document.body.requestFullscreen();
+            document.body.webkitRequestFullscreen();
+            document.body.msRequestFullscreen()
+        });
+    </script>
+</body>
+
+</html>

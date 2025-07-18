@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    margin-top: 40vh;
+    display: revert;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+}
+
+.formTitleContainer {
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-family: arial;
+}
+
+#yes,
+#no {
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    border-width: 0px;
+    font-size: 27px;
+    color: white;
+}
+
+#yes {
+    background-color: rgb(45, 249, 45);
+}
+
+#yes:active {
+    background-color: lightgreen
+}
+
+
+#no {
+    background-color: red;
+}
+
+#no:active {
+    background-color: rgb(248, 81, 81)
+}
+
+.formChoiceContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
