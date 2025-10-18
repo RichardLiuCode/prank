@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+#button {
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 223, 223);
+    border-radius: 30px;
+    font-size: 35px;
+    background-color: rgb(125, 186, 244);
+    color: rgb(3, 76, 202);
+    box-shadow: 0 0 3px 3px LIGHTGRAY;
+
+}
+
+#button:focus {
+    outline: none;
+}
+
+#button:active {
+    outline: none;
+    background-color: rgba(125, 186, 244, 0.867);
+}
